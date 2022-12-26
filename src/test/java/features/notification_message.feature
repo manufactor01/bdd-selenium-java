@@ -5,6 +5,7 @@ Feature: Notification Message
     Given i am in notification message page
     When I click on button Click Here for <times> times
     Then I am alerted with <message>
+
     Examples:
       | message                              | times |
       | Action successful                    | 1     |
